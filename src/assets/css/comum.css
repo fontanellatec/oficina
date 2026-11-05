@@ -1,0 +1,89 @@
+body .marginRoutes{
+    margin-top: 50px!important;
+}
+
+.topO{
+    margin-top:100px;
+}
+
+.btnDefault{
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+
+.gridTop{
+    margin-top: 20px;
+}
+
+body{
+    background-color: #F8F8F8;
+    background-image: url('../img/fundo.jpg');
+    background-repeat: repeat
+}
+
+.breadcrumbMargin{
+    width: 100%;
+    margin:0 auto;
+    background-color: #FFFF;
+    padding: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(189,189,189,1);
+    -moz-box-shadow: 0px 4px 8px 0px rgba(189,189,189,1);
+    box-shadow: 0px 4px 8px 0px rgba(189,189,189,1);
+}
+
+.breadcrumbMargin ol{
+    margin-bottom: 1!important;
+}
+
+.breadcrumbMargin a{
+    text-decoration: none;
+}
+
+.css-67l5gl:before {
+    background-color:none!important;
+}
+
+.cadastroObrigatorio{
+    color:red;
+}
+
+.formCheckBox{
+    margin-top:35px;
+}
+
+.linkAdicionarItem{
+    text-align:center;
+    cursor:pointer;
+    margin-top:20px
+}
+
+.linkAdicionarItem:hover{
+    text-decoration:underline
+}
+
+.tableItem{
+   border:1px solid #ccc;
+   padding-bottom:10px; 
+   border-radius:5px;
+   padding:10px
+}
+
+.buttonSuccess{
+    background: #15755e;
+    color:#FFFF;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+  
+
+

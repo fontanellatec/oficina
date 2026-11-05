@@ -1,0 +1,87 @@
+{
+    "gridCotacaoFinalizada" : [
+        {
+            "id":1,
+            "qtdDisponivel" : 193.00,
+            "ICMS" : 193.00,
+            "precoAVista" : 193.00,
+            "precoAPrazo" : 193.00,
+            "validade" : "30/07/2022",
+            "IPI" : "",
+            "quantidade" : 25,
+            "aPrazo" : "Sem prazo",
+            "observacao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare in elit massa nulla convallis ac metus, orci praesent. Facilisi euismod a consequat, orci."
+        }
+    ],
+
+    "gridCotacaoRespondida" : [
+        {
+            "id":1,
+            "qtdDisponivel" : 195.00,
+            "icms" : 193.00,
+            "precoAVista" : 193.00,
+            "precoAPrazo" : 193.00,
+            "validade" : "30/07/2022",
+            "ipi" : "",
+            "quantidade" : 25,
+            "aPrazo" : "Sem prazo",
+            "observacao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare in elit massa nulla convallis ac metus, orci praesent. Facilisi euismod a consequat, orci."
+        }
+    ],
+
+    "card" : [
+        { 
+            "id":1,
+            "quantidade" : 15 , 
+            "titulo" : "COTACAO EM ANDAMENTO", 
+            "subtitulo" : "n° de cotações",
+            "cor": "#85BCD3",
+            "link": "/retornocotacao"
+        },
+
+        { 
+            "id":2,
+            "quantidade" : 10 , 
+            "titulo" : "ORDEM DE COMPRA", 
+            "subtitulo" : "n° de ordens de compra",
+            "cor": "#8785D3",
+            "link": "/ordemcompra"
+        },
+
+        { 
+            "id":3,
+            "quantidade" : 2 , 
+            "titulo" : "RELATÓRIOS", 
+            "subtitulo" : "n° de relatórios",
+            "cor": "#85D3BC",
+            "link": ""
+        }
+    ],
+
+    "chart": [
+        {
+            "id":1,
+            "type":"dataDoughnut",
+            "title":"Ordem de Compra",
+            "color":{"color1":"rgba(255, 99, 132, 0.2)","color2":"rgba(54, 162, 235, 0.2)"},
+            "data":{"num1":50,"num2":50},
+            "labels":{"label1":"Não Entregue","label2":"Entregue"}
+        },
+
+        {
+            "id":1,
+            "type":"dataPie",
+            "title":"Cotações ganhas/perdidas",
+            "color":{"color1":"rgba(255, 99, 132, 0.2)","color2":"rgba(54, 162, 235, 0.2)"},
+            "data":{"num1":50,"num2":50},
+            "labels":{"label1":"Não Entregue","label2":"Entregue"}
+        }
+    ],
+
+    "notificacao": [
+        {
+            "id":1,
+            "quantidade":3
+        }
+    ]
+}
